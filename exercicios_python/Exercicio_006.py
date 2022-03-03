@@ -1,0 +1,2 @@
+n1 = int(input('\033[0;33mDigite um número: '))
+print('\033[0;44mO número digitado foi: \033[1;33m{}\033[0;44m. \n Seu dobro é \033[1;33m{}\033[0;44m. \n Seu triplo \033[1;33m{}\033[0;44m. \n Sua raiz quadrada \033[1;33m{:.2f}'.format(n1, n1*2, n1*3, n1**(1/2)))
